@@ -1,0 +1,54 @@
+y/**
+
+.b11,.b12,.b13,.b14{
+    width: 220px;
+    height: 150px;
+    margin: 15px;
+    box-shadow: 4px 4px 0 0 rgb(153, 207, 191);
+    font-size: 40px;
+    border-radius: 10px;
+    border:5px groove gold
+}
+.b11 {
+    background: rgba(117, 236, 37, 0.74);
+}
+.b12 {
+    background: rgb(161, 16, 161);
+}
+.b13 {
+    background: rgb(18, 136, 165);
+}
+.b14 {
+    background: rgba(26, 18, 136, 0.575);
+}
+
+.b11:hover,.b12:hover ,.b13:hover,.b14:hover{
+    background-color: hotpink;
+   
+    box-shadow: 4px 4px 0 0 rgb(116, 116, 108);
+    color:mediumpurple
+
+}
+
+
+
+.full-landing-q1{
+    background-image: url('../NatureImages/Raging.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+
+}
+.over-landing-q1{
+    background:rgba(0,0,0,0.5) !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ba1,.ba2 {
+    margin-left: auto !important;
+
+}*/

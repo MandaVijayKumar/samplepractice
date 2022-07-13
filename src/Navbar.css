@@ -1,0 +1,15 @@
+#One li {
+    list-style-type:none;
+    width:200px;
+    display: inline-block;
+    background: lightblue;
+    border: 2px groove greenyellow;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+}
+#one {
+    width:100%;
+    padding:20px;
+    border: 3px groove gold;
+}

@@ -1,0 +1,9 @@
+#solId {
+    min-height: 100px;
+    background: linear-gradient(20deg,lightgreen,lightpink,lightyellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:auto;
+}

@@ -1,0 +1,13 @@
+.mynav {
+    background-color: rgb(187, 138, 48);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+
+}
+.mynav li {
+    color: 'green';
+    text-decoration: none;
+    display: inline-block;
+
+}

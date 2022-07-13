@@ -1,0 +1,1 @@
+export const say_wish = 'say_wish';

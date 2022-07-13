@@ -1,0 +1,131 @@
+title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: lightpink !important;
+    margin: 0px !important;
+}
+#homeoptions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 200px;
+    
+   
+    
+}
+#homeoptions .categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#homeoptions .card {
+    min-height: 200px;
+    min-width: 300px;
+    margin:100px 50px !important;
+    border:4px groove lightyellow;
+    box-shadow: 0 0 10px white;
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.3s;
+   
+    
+    
+    
+}
+.personal-padding {
+    padding-right: 130px !important;
+}
+.personal-bg {
+    padding-right: 40px !important;
+}
+.love-bg {
+    padding-left: 20px !important;
+}
+ .depression-bg {
+    background-image: url('./NatureImages/depression1.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+
+}
+.personal-bg {
+    background-image: url('./NatureImages/personal1.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+
+}
+.love-bg {
+    background-image: url('./NatureImages/loveproblem.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+
+}
+.educational-bg {
+    background-image: url('./NatureImages/education2.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+
+}
+
+.btn-danger {
+    background: linear-gradient(10deg,rgb(241, 157, 151),lightgreen) !important;
+}
+.btn-success {
+    background: linear-gradient(10deg,rgb(120, 76, 177),rgb(240, 171, 92)) !important;
+}
+.btn-primary {
+    background: linear-gradient(10deg,rgb(123, 130, 235),rgb(201, 243, 103)) !important;
+}
+.btn-warning {
+    background: linear-gradient(10deg,rgb(225, 173, 230),rgb(206, 47, 81)) !important;
+}
+#homeoptions .card:hover {
+   
+    transform: scale(1.2,1.2) !important
+}
+#homeoptions .card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.full-landing {
+    background-image: url('./NatureImages/welcom3.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.over-landing {
+    background : rgba(0,0,0,0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+    
+}
+

@@ -1,0 +1,31 @@
+nav{
+    margin:0px;
+    padding: 5px;
+    background: linear-gradient(45deg,rgb(209, 187, 65),rgb(200, 218, 193),pink);
+    display: flex !important;
+    justify-content: space-around !important;
+    
+   
+    list-style-type: none;
+    margin:0px;
+    padding: 1px;
+    position:sticky;
+    left:auto;
+    top:auto;
+}
+nav ul {
+    
+}
+nav ul li {
+    font-size: 16px;
+}
+.navbar-nav ul {
+    display:flex !important;
+    justify-content: space-around !important;
+}
+#nav-margin li {
+    margin: 0px 100px !important;
+}
+.mam {
+    font-size: 20px !important;
+}

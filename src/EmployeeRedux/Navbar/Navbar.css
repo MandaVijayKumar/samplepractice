@@ -1,0 +1,12 @@
+#Nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background: #61dafb;
+  }
+  #Nav li {
+      margin:10px 10px;
+      font-size: 1.5rem;
+  }
+  
+  

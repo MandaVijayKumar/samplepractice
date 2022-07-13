@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Gloria+Hallelujah&family=Spartan:wght@200;300&display=swap');
+.full-landing1 {
+    background-image: url('../NatureImages/welcome2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+}
+.over-landing1 {
+    background: rgba(0,0,0,0.1);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-card {
+    border:3px solid rgb(245, 170, 95);
+    border-radius: 15px;
+    background: rgba(117, 117, 54, 0.1) !important;
+    color: white;
+    box-shadow: 0 0 10px white !important;
+    margin-left: 30px;
+}
+.btn-secondary {
+    background:linear-gradient(10deg,rgb(243, 227, 162), rgb(110, 110, 106)) !important;
+}
+.inside-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wel-div {
+    padding-bottom: 100px !important;
+    font-family: 'Cinzel', serif !important;
+    
+}

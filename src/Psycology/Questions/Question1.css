@@ -1,0 +1,97 @@
+
+
+.b11,.b12,.b13,.b14{
+    width: 220px;
+    height: 150px;
+    margin: 15px;
+    box-shadow: 0 0 15px white;
+    font-size: 40px;
+    border-radius: 50px;
+    border:5px groove gold
+}
+.b11 {
+    background: linear-gradient(10deg,rgba(255, 252, 75, 0.623),rgb(166, 253, 199));
+}
+.b12 {
+    background: linear-gradient(10deg,rgba(255, 251, 18, 0.507),rgba(255, 47, 10, 0.493));
+}
+.b13 {
+    background: rgb(18, 136, 165);
+}
+.b14 {
+    background: rgba(26, 18, 136, 0.575);
+}
+
+.b11:hover,.b12:hover ,.b13:hover,.b14:hover{
+    background-color: rgb(248, 226, 237);
+    transform:scale(1.2,1.2);
+   
+    box-shadow: 4px 4px 0 0 rgb(116, 116, 108);
+    color:mediumpurple
+
+}
+
+
+
+.full-landing-q1{
+    background-image: url('../NatureImages/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+
+}
+.over-landing-q1{
+    background:rgba(0,0,0,0.5) !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+#question-part-q1 {
+    margin-top:100px;
+    background:rgba(255, 255, 255, 0.1);
+    width:100%;
+    justify-content: center;
+    min-height: 150px;
+    border:1px groove lightsteelblue;
+    box-shadow: 0 0 15px white;
+}
+#question-part-q1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#question-option-q1 {
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.op1{
+    width: 200px !important;
+    height: 100px !important;
+    margin: 35px !important;
+    box-shadow: 0 0 15px white !important;
+    font-size: 26px !important;
+    border-radius: 50px !important;
+    border:5px groove gold !important
+}
+
+.op1 {
+    background: linear-gradient(10deg,rgba(255, 251, 18, 0.507),rgba(255, 47, 10, 0.493)) !important;
+}
+
+.op1:hover{
+    background-color: rgb(248, 226, 237) !important;
+    
+   
+    box-shadow: 4px 4px 0 0 rgb(116, 116, 108) !important;
+    color:mediumpurple !important
+
+}
